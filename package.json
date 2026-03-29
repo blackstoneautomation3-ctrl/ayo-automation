@@ -1,5 +1,3 @@
-
- 
 {
   "name": "ayo-automation",
   "version": "0.1.0",
@@ -29,3 +27,5 @@
     "eslint-config-next": "15.3.1"
   }
 }
+ 
+
