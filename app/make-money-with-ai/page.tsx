@@ -107,7 +107,6 @@ const successStories = [
 const plans = [
   {
     name: 'Self-Paced',
-    price: '₦25,000',
     period: 'one-time',
     description: 'Perfect for self-motivated learners who can study at their own pace.',
     features: [
@@ -123,7 +122,6 @@ const plans = [
   },
   {
     name: 'Mentorship Pro',
-    price: '₦55,000',
     period: 'one-time',
     description: 'Get direct access to Ayo with weekly 1-on-1 sessions and hands-on guidance.',
     features: [
@@ -141,7 +139,6 @@ const plans = [
   },
   {
     name: 'Group Cohort',
-    price: '₦35,000',
     period: 'per cohort',
     description: 'Live cohort experience with Ayo and a group of motivated Nigerian students.',
     features: [
@@ -359,10 +356,7 @@ export default function MakeMoneyWithAIPage() {
                 <div className="mb-6">
                   <h3 className="font-heading font-bold text-white text-xl mb-1">{name}</h3>
                   <p className="text-slate-500 text-sm mb-5">{description}</p>
-                  <div className="flex items-end gap-2">
-                    <span className="font-heading font-800 text-4xl text-white">{price}</span>
-                    <span className="text-slate-500 text-sm mb-1">{period}</span>
-                  </div>
+                  
                 </div>
 
                 <ul className="space-y-3 mb-8 flex-1">
