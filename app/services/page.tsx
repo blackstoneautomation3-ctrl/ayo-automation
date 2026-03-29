@@ -33,7 +33,7 @@ const mainServices = [
     ],
     accent: '#0EA5E9',
     badge: 'Most Popular',
-    price: 'From ₦80,000',
+    
   },
   {
     icon: ShoppingCart,
@@ -53,7 +53,7 @@ const mainServices = [
     ],
     accent: '#22D3EE',
     badge: 'High ROI',
-    price: 'From ₦150,000',
+    
   },
   {
     icon: User,
@@ -73,7 +73,7 @@ const mainServices = [
     ],
     accent: '#8B5CF6',
     badge: 'For Creatives',
-    price: 'From ₦50,000',
+    
   },
   {
     icon: Smartphone,
@@ -93,7 +93,7 @@ const mainServices = [
     ],
     accent: '#F59E0B',
     badge: 'For Startups',
-    price: 'From ₦350,000',
+    
   },
   {
     icon: Brain,
@@ -113,7 +113,7 @@ const mainServices = [
     ],
     accent: '#10B981',
     badge: 'Transform Your Income',
-    price: 'From ₦25,000',
+    
   },
   {
     icon: RefreshCw,
@@ -133,7 +133,7 @@ const mainServices = [
     ],
     accent: '#EC4899',
     badge: 'Upgrade Now',
-    price: 'From ₦60,000',
+    
   },
 ]
 
