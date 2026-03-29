@@ -211,8 +211,7 @@ export default function ServicesPage() {
                 </ul>
 
                 {/* Price + CTA */}
-                <div className="flex items-center justify-between pt-5 border-t border-white/8">
-                  <span className="font-heading font-bold text-white">{price}</span>
+                <div className="flex items-center justify-end pt-5 border-t border-white/8">
                   <a
                     href={`https://wa.me/2348166494104?text=Hi%20Ayo%2C%20I%27m%20interested%20in%20your%20${encodeURIComponent(title)}%20service.`}
                     target="_blank"
